@@ -7,11 +7,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BranchesApplication {
 
 	public static void main(String[] args) {
+		String name = "mike";
 		int x=100;
+		boolean isPresent=flase;
 		int y=2000;
-		int a=x*y;
-
-		int z = x+y;
+		char x = 'a';
+		int y =200;
+		double z = 10.3;
+		boolean isPresent = false;
+		float m = 10.3f;
 		SpringApplication.run(BranchesApplication.class, args);
 	}
 
